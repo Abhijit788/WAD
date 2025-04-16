@@ -1,0 +1,50 @@
+.card{
+    border-radius: 60px;
+    background: #C1C9E6;
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.owner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    max-height: 500px; /* Adjust the value as needed */
+    width: auto;
+}
+.fullPageBackground {
+    position: fixed; /* Ensures the background stays in place */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh; /* Covers the entire viewport */
+    background-image: url('../public/home/ngo2.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Scales the image to cover the entire container */
+    background-position: center; /* Centers the image horizontally and vertically */
+    z-index: -1; /* Positions the background behind the content */
+}
+.content {
+    margin-top: 20px; /* Adjust this value as needed */
+}
+.a {
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .b {
+    height: 100%; /* Make the image fill the container height */
+    width: 100%; /* Make the image fill the container width */
+    object-fit: cover; /* Cover the container with the image, preserving its aspect ratio */
+  }
